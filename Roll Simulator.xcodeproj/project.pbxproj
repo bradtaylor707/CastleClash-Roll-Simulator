@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A229C6A61A983C86006507DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A229C6A51A983C86006507DB /* main.m */; };
+		A229C6A91A983C86006507DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A229C6A81A983C86006507DB /* AppDelegate.m */; };
+		A229C6AC1A983C86006507DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A229C6AB1A983C86006507DB /* ViewController.m */; };
+		A229C6AF1A983C86006507DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A229C6AD1A983C86006507DB /* Main.storyboard */; };
+		A229C6B11A983C86006507DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A229C6B01A983C86006507DB /* Images.xcassets */; };
+		A229C6B41A983C86006507DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A229C6B21A983C86006507DB /* LaunchScreen.xib */; };
+		A229C6C01A983C86006507DB /* Roll_SimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A229C6BF1A983C86006507DB /* Roll_SimulatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A229C6BA1A983C86006507DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A229C6981A983C86006507DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A229C69F1A983C86006507DB;
+			remoteInfo = "Roll Simulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A229C6A01A983C86006507DB /* Roll Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roll Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A229C6A41A983C86006507DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A229C6A51A983C86006507DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A229C6A71A983C86006507DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A229C6A81A983C86006507DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A229C6AA1A983C86006507DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A229C6AB1A983C86006507DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A229C6AE1A983C86006507DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A229C6B01A983C86006507DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A229C6B31A983C86006507DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A229C6B91A983C86006507DB /* Roll SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roll SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A229C6BE1A983C86006507DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A229C6BF1A983C86006507DB /* Roll_SimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Roll_SimulatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A229C69D1A983C86006507DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A229C6B61A983C86006507DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A229C6971A983C86006507DB = {
+			isa = PBXGroup;
+			children = (
+				A229C6A21A983C86006507DB /* Roll Simulator */,
+				A229C6BC1A983C86006507DB /* Roll SimulatorTests */,
+				A229C6A11A983C86006507DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A229C6A11A983C86006507DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A229C6A01A983C86006507DB /* Roll Simulator.app */,
+				A229C6B91A983C86006507DB /* Roll SimulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A229C6A21A983C86006507DB /* Roll Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				A229C6A71A983C86006507DB /* AppDelegate.h */,
+				A229C6A81A983C86006507DB /* AppDelegate.m */,
+				A229C6AA1A983C86006507DB /* ViewController.h */,
+				A229C6AB1A983C86006507DB /* ViewController.m */,
+				A229C6AD1A983C86006507DB /* Main.storyboard */,
+				A229C6B01A983C86006507DB /* Images.xcassets */,
+				A229C6B21A983C86006507DB /* LaunchScreen.xib */,
+				A229C6A31A983C86006507DB /* Supporting Files */,
+			);
+			path = "Roll Simulator";
+			sourceTree = "<group>";
+		};
+		A229C6A31A983C86006507DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A229C6A41A983C86006507DB /* Info.plist */,
+				A229C6A51A983C86006507DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A229C6BC1A983C86006507DB /* Roll SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A229C6BF1A983C86006507DB /* Roll_SimulatorTests.m */,
+				A229C6BD1A983C86006507DB /* Supporting Files */,
+			);
+			path = "Roll SimulatorTests";
+			sourceTree = "<group>";
+		};
+		A229C6BD1A983C86006507DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A229C6BE1A983C86006507DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A229C69F1A983C86006507DB /* Roll Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A229C6C31A983C86006507DB /* Build configuration list for PBXNativeTarget "Roll Simulator" */;
+			buildPhases = (
+				A229C69C1A983C86006507DB /* Sources */,
+				A229C69D1A983C86006507DB /* Frameworks */,
+				A229C69E1A983C86006507DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roll Simulator";
+			productName = "Roll Simulator";
+			productReference = A229C6A01A983C86006507DB /* Roll Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A229C6B81A983C86006507DB /* Roll SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A229C6C61A983C86006507DB /* Build configuration list for PBXNativeTarget "Roll SimulatorTests" */;
+			buildPhases = (
+				A229C6B51A983C86006507DB /* Sources */,
+				A229C6B61A983C86006507DB /* Frameworks */,
+				A229C6B71A983C86006507DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A229C6BB1A983C86006507DB /* PBXTargetDependency */,
+			);
+			name = "Roll SimulatorTests";
+			productName = "Roll SimulatorTests";
+			productReference = A229C6B91A983C86006507DB /* Roll SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A229C6981A983C86006507DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Brad Taylor";
+				TargetAttributes = {
+					A229C69F1A983C86006507DB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A229C6B81A983C86006507DB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A229C69F1A983C86006507DB;
+					};
+				};
+			};
+			buildConfigurationList = A229C69B1A983C86006507DB /* Build configuration list for PBXProject "Roll Simulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A229C6971A983C86006507DB;
+			productRefGroup = A229C6A11A983C86006507DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A229C69F1A983C86006507DB /* Roll Simulator */,
+				A229C6B81A983C86006507DB /* Roll SimulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A229C69E1A983C86006507DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A229C6AF1A983C86006507DB /* Main.storyboard in Resources */,
+				A229C6B41A983C86006507DB /* LaunchScreen.xib in Resources */,
+				A229C6B11A983C86006507DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A229C6B71A983C86006507DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A229C69C1A983C86006507DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A229C6AC1A983C86006507DB /* ViewController.m in Sources */,
+				A229C6A91A983C86006507DB /* AppDelegate.m in Sources */,
+				A229C6A61A983C86006507DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A229C6B51A983C86006507DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A229C6C01A983C86006507DB /* Roll_SimulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A229C6BB1A983C86006507DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A229C69F1A983C86006507DB /* Roll Simulator */;
+			targetProxy = A229C6BA1A983C86006507DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A229C6AD1A983C86006507DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A229C6AE1A983C86006507DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A229C6B21A983C86006507DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A229C6B31A983C86006507DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A229C6C11A983C86006507DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A229C6C21A983C86006507DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A229C6C41A983C86006507DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Roll Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A229C6C51A983C86006507DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Roll Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A229C6C71A983C86006507DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Roll SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roll Simulator.app/Roll Simulator";
+			};
+			name = Debug;
+		};
+		A229C6C81A983C86006507DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Roll SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roll Simulator.app/Roll Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A229C69B1A983C86006507DB /* Build configuration list for PBXProject "Roll Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A229C6C11A983C86006507DB /* Debug */,
+				A229C6C21A983C86006507DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A229C6C31A983C86006507DB /* Build configuration list for PBXNativeTarget "Roll Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A229C6C41A983C86006507DB /* Debug */,
+				A229C6C51A983C86006507DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A229C6C61A983C86006507DB /* Build configuration list for PBXNativeTarget "Roll SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A229C6C71A983C86006507DB /* Debug */,
+				A229C6C81A983C86006507DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A229C6981A983C86006507DB /* Project object */;
+}
