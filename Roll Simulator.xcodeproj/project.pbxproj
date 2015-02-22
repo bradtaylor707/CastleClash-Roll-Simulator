@@ -14,6 +14,8 @@
 		A229C6B11A983C86006507DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A229C6B01A983C86006507DB /* Images.xcassets */; };
 		A229C6B41A983C86006507DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A229C6B21A983C86006507DB /* LaunchScreen.xib */; };
 		A229C6C01A983C86006507DB /* Roll_SimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A229C6BF1A983C86006507DB /* Roll_SimulatorTests.m */; };
+		A229C6CB1A983CE0006507DB /* RollSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = A229C6CA1A983CE0006507DB /* RollSystem.m */; };
+		A229C6CD1A984C04006507DB /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A229C6CC1A984C04006507DB /* Entitlements.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		A229C6B91A983C86006507DB /* Roll SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roll SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A229C6BE1A983C86006507DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A229C6BF1A983C86006507DB /* Roll_SimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Roll_SimulatorTests.m; sourceTree = "<group>"; };
+		A229C6C91A983CE0006507DB /* RollSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollSystem.h; sourceTree = "<group>"; };
+		A229C6CA1A983CE0006507DB /* RollSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollSystem.m; sourceTree = "<group>"; };
+		A229C6CC1A984C04006507DB /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 		A229C6971A983C86006507DB = {
 			isa = PBXGroup;
 			children = (
+				A229C6CC1A984C04006507DB /* Entitlements.plist */,
 				A229C6A21A983C86006507DB /* Roll Simulator */,
 				A229C6BC1A983C86006507DB /* Roll SimulatorTests */,
 				A229C6A11A983C86006507DB /* Products */,
@@ -85,6 +91,8 @@
 				A229C6A81A983C86006507DB /* AppDelegate.m */,
 				A229C6AA1A983C86006507DB /* ViewController.h */,
 				A229C6AB1A983C86006507DB /* ViewController.m */,
+				A229C6C91A983CE0006507DB /* RollSystem.h */,
+				A229C6CA1A983CE0006507DB /* RollSystem.m */,
 				A229C6AD1A983C86006507DB /* Main.storyboard */,
 				A229C6B01A983C86006507DB /* Images.xcassets */,
 				A229C6B21A983C86006507DB /* LaunchScreen.xib */,
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A229C6CD1A984C04006507DB /* Entitlements.plist in Resources */,
 				A229C6AF1A983C86006507DB /* Main.storyboard in Resources */,
 				A229C6B41A983C86006507DB /* LaunchScreen.xib in Resources */,
 				A229C6B11A983C86006507DB /* Images.xcassets in Resources */,
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A229C6AC1A983C86006507DB /* ViewController.m in Sources */,
+				A229C6CB1A983CE0006507DB /* RollSystem.m in Sources */,
 				A229C6A91A983C86006507DB /* AppDelegate.m in Sources */,
 				A229C6A61A983C86006507DB /* main.m in Sources */,
 			);
@@ -280,7 +290,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -321,7 +332,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -412,6 +424,7 @@
 				A229C6C51A983C86006507DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A229C6C61A983C86006507DB /* Build configuration list for PBXNativeTarget "Roll SimulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				A229C6C81A983C86006507DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
